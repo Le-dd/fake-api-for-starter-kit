@@ -1,0 +1,24 @@
+{
+  "name": "fake-api-for-starter-kit",
+  "version": "1.0.0",
+  "description": "fake api for starter kit",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server db.json -m ./node_modules/json-server-auth --port 8833"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Le-dd/fake-api-for-starter-kit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Le-dd/fake-api-for-starter-kit/issues"
+  },
+  "homepage": "https://github.com/Le-dd/fake-api-for-starter-kit#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "json-server": "^0.16.1",
+    "json-server-auth": "^2.0.2"
+  }
+}
